@@ -1,0 +1,47 @@
+go version go1.19.3 windows/amd64
+
+Day 1
+
+Found a lot of documentation which i am reading upm on, is promising on potential and ease.
+
+
+Day 2
+
+Found a good step by step guide.
+Big problem, does not explain how modules work and I am stuck solving imports and importing missing commands
+like protoc. After 1.5 hours of problem solving i finally found what i needed to do.
+I need to initiate a new module(like git) before i can start working. Then i need to import installed
+stuff with go get github... to solve import issues.
+Protoc was installed after manually dragging a seperately installed protoc file into $GOPATH/bin
+
+Tutorial seems outdated, which makes sense for such a young language that updates quickly.
+
+instead of "go get -u", i had to use "go install".
+
+and instead of "package chat", I had to use "option go_package="./;chat";" 
+
+Decided to take a break and eat dinner, before finding my courage again and finished the first
+go server excercise late in the evening and even started experimenting with it.
+
+
+Day 3
+
+Found a tutorial on how to build a Go gRPC server for a react front end. The problem is that
+it is a chat application and it serves as a chat server again, just like the first tutorial.
+This is an option but I would like tohave more options. I will probably have to mix tutorials 
+for this which makes it a lot more challenging.
+Learning a lot of the Go syntax while debugging in the tutorials. Every tutorial I follow gives
+me a lot of trouble in resolving import errors.
+
+Notes
+
+deleting items from a list is quite confusing
+hoards = append(hoards[:index], hoards[index+1:]...)
+It bassicly says, Take every item in the list before the index and add every item after the index.
+
+https://techblog.livongo.com/how-to-use-grpc-and-protobuf-with-javascript-and-reactjs/ 
+Downsides of using gRPC with JavaScript
+Unfortunately, the documentation is almost nonexistent for JavaScript and ReactJS, and the   
+Google official protocol-buffers implementation JavaScript generated files are not completely 
+straightforward for a JavaScript developer to wrap their heads around it, with the extensive use of 
+getter and setter to create and read objects.

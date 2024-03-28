@@ -1,0 +1,19 @@
+syntax = "proto3";
+option go_package="./;chat";
+
+import "google/protobuf/timestamp.proto";
+
+message Message {
+    string body = 1;
+}
+
+message User {
+    string name = 1;
+    int32 age = 2;
+}
+//numbers stand for position <above me>
+
+service ChatService {
+    rpc SayHello(Message) returns (Message) {}
+    rpc GetUsers(User) returns (Message) {}
+}

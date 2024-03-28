@@ -1,0 +1,24 @@
+https://challenges.reply.com/tamtamy/challenges/category/cybersecurity
+
+Start 7u30 vrijdag, struggle om program te schrijven om word solve puzzle op te lossen
+valt terug op website dat er nog maar klein beetje werk zelf is. Komen samen in de ochten om 11u zaterdag.
+Al Teams met 4000 punten maar het overgrote deel heeft 0 punten.
+
+Moet passwoord zoeken door alle overblijvende letters in woordpuzzel, flag vinden in website.
+Raken als admin in website maar weten niet hoe we verder moeten van daar, maar voelen dat we dichtbij zijn, nooit gevonden.
+
+Allemaal bezig met 2 oefeningen (coding en web) en maken niet echt vooruitgang. Uiteindelijk hebben we toch zelf de code geschreven
+ en na uren werkhebben we eindelijk 1 flag.
+
+ondanks maar 1 oefening opgelost te hebben toch in top 10% van het hele toernooi
+
+ondertussen nieuwe oefeningen uitgekomen. Proberen coding voor 400 te maken maar we begrijpen de opdracht niet. Er is
+een sequentie van nummers met 4 invulvelden maar geen uitleg behalve los op voor naar volgende oefening te gaan.
+We hebben de opvolgende nummers kunnen vinden maar alles wat we indienen klopt niet. Weten niet of het som is en
+of we van 10 of 0 moeten beginnen, en of het inclusief het 150ste getal is of niet.
+
+Duidelijk dat we kennis en ervaring missen maar dat dit ook een zeer moeilijke ctf aangezien we goed scoren relatief met
+de andere deelnemers. Weten niet goed welke programmas en technieken te gebruiken waardoor we delen van oefeningen 
+kunnen oplossen maar heel weinig volledig.
+
+geven op rond 18u30, 1u voor einde.

@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option go_package = "hoard.com/grpc/pkg";
+option java_multiple_files = true;
+
+option java_package = "io.grpc.app1.hoard";
+option java_outer_classname = "HoardProto";
+option objc_class_prefix = "MAP";
+
+package hoard;
+
+service HoardService {
+	rpc GetHoards (Empty) returns (stream HoardInfo);
+	rpc GetHoard (Id) returns (HoardInfo);
+	rpc CreateHoard (HoardInfo) returns (Id);
+	rpc UpdateHoard (HoardInfo) returns (Status);
+	rpc DeleteHoard (Id) returns (Status);
+}
+
+message Empty {}
+
+message HoardInfo {
+	string id = 1;
+	string title = 2;
+	Sender sender = 3;
+}
+
+message Sender {
+	string firstname = 1;
+	string lastname = 2;
+}
+
+message Id {
+	string value = 1;
+}
+
+message Status {
+	int32 value = 1; 
+}

@@ -1,0 +1,64 @@
+First session:
+--- Building a Digital Twin of the German Rail Network to Deliver Next-Generation Railway Systems
+Jose Minguez
+Senior Software Developer, DB Systel GmbH
+---
+
+With a digital twin we can get precious data of special cases for AI models we could not get otherwise.
+Such as someone falling on the train tracks or an object falling on te tracks.
+
+4 parts:
+eviromental modelling, agent modelling, train physics, data for ai
+
+Works with sensors4rails, project to monitor the surroundings and thus supply the data
+needed for the modelling. With the use of Nvidia tools and extension they can convert
+this data to modelling. Way to in detail explanation of the modelling physics.
+Human behaviour is the next step in the project.
+
+
+
+Second session:
+---(panel of 4)  Accelerating AV Development with AI, Simulation, and Synthetic Data
+Norm Marks (Worldwide Field Ops)
+Vice President, Automotive Enterprise, NVIDIA
+
+Ödgärd Andersson
+CEO, Zenseact  
+
+
+Albert Meixner
+Head of Software, Nuro
+
+Annie Lien
+Deputy CEO, VinAi
+---
+Q. what are the biggest challenges in our field (automated driving)
+A. we have access to more robust systems so they can finally start with actual results. They can now bring
+safety to every mile driven with the systems.
+
+20% of severe accidents could be avoided with this technology. This is comparable to the invention of the
+seatbelt. Humans have the tendency to overtrust systems, for example sleeping behind the wheel. The use 
+of the systems need to be improved too, not just the systems. If we can get the systems to this point 
+being stuck in traffic is not nearly as bad. If you can work, check your emails, watch netflix inside 
+your car without issues transport is not nearly as much of a time loss. They never want to be fully 
+reliant on just 1 system. There needs to be some form of stability and redundancy in a non AI system.
+A subscription business model will be needed since software needs updates.
+New technologies and systems always cost a lot, but once optimised go down in cost a lot. Airbags were
+also really expensive to produce in the beginning.
+
+Third session:
+---Connect with the Experts: AR and VR in Omniverse 
+NVIDIA STAFF
+---
+Raytracing is very important in XR, because our brains need it. Omniverse is different from game engins
+and works far better with XR and VR. Their structure is better fitted for these technologies.
+They are making a streaming client for oculus.
+Why would you use omniverse? 
+
+
+
+
+
+
+
+

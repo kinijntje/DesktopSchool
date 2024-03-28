@@ -1,0 +1,139 @@
+Astrasenica is involved and thanked for input. The Royal Society. Is in the UK. Clearly a lot of important
+people spoke and were in the audience. A lot of difficult topic, a very high level event.
+A lot of short explenations but at a very high level, sometimes a bit too high.
+
+around 650 participants
+
+BIOLOGY
+
+1st speaker: Dr Anne Phelan (Biology and Chemistry in relation to disease)
+AI helps fundamentals of disease research. Helps organize data and show paterns.
+All data has issues, messy, incomplete, contradictary and AI helps with those issues.
+"We are drowning in a sea of data, but starving for knowledge"
+It is a continues progress not a insta wonder solution. Not a single eureka moment but exponentially
+more complicated queries of data. On the brink of a revolution on how we can use data.
+
+2nd speaker: Dr Imran Haque(Data Scientist)
+Mapping in biology is a big challange. Decades of research of breast cancer in now possible as a 
+single querie. This is not new research but a data restructured with the help of AI. The biology
+landscape is far clearer. The most important part of biological maps is relations. Some possible 
+genes that can be a solution can be a danger to health in combination with another specific gene.
+So we want a map that explains the relation of everything with everything. Humans cannot compare
+tens of thousends of dna with other dna, but an AI can. The main problem now is that this data 
+needs to be standerdised. They are solving that now. This way we can look at what things actually
+do, unlike what they look like they do which may be misleading.
+10 years ago it was impossible for AI to tell an animal for an image, which is now possible. This
+is the same in biology. AI can now read patterns in cells and dna and conclude what it can do or 
+what it is.
+They now have publicised a big dataset for biology that was made by 1 AI protocol which is a big 
+step forward.
+
+3rd speaker: Professor Walter Kolch
+More cancer, but not much progress in healing. The problem is applying the right drug to the right 
+patient. The drugs are strong enough, but which one to use when is the hard part. Human body is
+more complicated than a rocket, you have a blueprint for it, but that is not the case for the body.
+We can use AI for this. Neuroblastoma is rare child cancer with 50% lethality rate. We need to find
+which children are susceptible to this cancer. Thanks to AI this was possible. Not only do we 
+understand what defines who needs to watch out, we also learned why. ex. Some drugs get bounced back
+by certain patients. Now individualised treatment is possible through AI and we can administer 
+specific drug combinations to each patient.
+
+Q&A:
+The AI result is not the final conclusion but something that highlights paterns and possible causes.
+Getting better and more consistent data is the next frontier.
+There are good pockets of data, but not all data is easily unifyable.
+
+CHEMISTRY:
+
+1st speaker: Professor Andreas Bender
+Amount of data is not the most important part. It is small critical data that is important.
+Quite confusing.
+How do we go from technology potential to application. How do we deal with labels? What is toxic?
+Water can be toxic if consumed excessively, so is water toxic? This can be much more complicated
+in deeper chemistry labels. It is all conditional. This is the problem with a binairy model. It is 
+important to take context into account. Chemical space is high dimensional, more than 3d which is 
+another challange. The fundament of everything is a question. A question generated research which
+generated data, what the fuel is of AI. So to improve the result of AI we should focus on improving
+the question.
+
+2nd speaker: Dr Lucy Colwell
+AI to help protein sequences with what those can do. This was used for research on COVID. What proteins
+could they bind to each other and bind to targets to help find a cure. There was also a big progress
+on the efficiency on the order of sequences. They found sequences that seemed unintuitive to humans
+worked really well against omicron for example. They really highlight the potential of working 
+sequence based. Because AI works with patterns it works really well with sequences. Mixing AI models
+also improved results a lot compared to using any model on its own. What if we find a new class of
+sequence with new functionality for the first time. AI can generate captions for images, so we can
+use this to generate sequence names. The problem is that it takes a lot of effort to confirm this name
+, since it is easy to verify a picture, but not so much for protein sequences. Not every sequence can 
+be manually verified. It was very rare that the model gave the wrong name. The model has learned some
+text and what relation it holds to the protein sequences.
+
+3rd speaker: Professor Charlotte Deane MBE
+How do we use machine learning? A lot of data is made for humans and not for AI, which is only 
+recently being developed. You can only use similar data. Not all data on proteins is aplicable to every 
+protein and vice versa. We want a general model, not a model for every type. We often do not check if
+models learn things outside what we thought them. We check if they learned what we thought them
+which is often a problem with this kind of research. If you look at what it actually learned it is 
+often a big maybe. Make use of synthetic data. Custom made near perfect data and look at what the
+model can do with it. They found it was able to tell and make use of all the most important parts.
+We need to make sure to improve on our method working and keep doing best practises.
+
+Q&A:
+It is important to come together as a comunity and improve together. Do not only improve the use of AI
+in biology and split it apart from chemistry but improve all fields involved.
+
+MEDICINE:
+
+1st speaker: Aditya Nori
+It is amazing how much it the use of AI changed in a few months. ex. chatGPT. Medicine is in a bad spot.
+Demand grows while but supply cannot keep up or is even diminishing. AI can help with this but we need 
+to be careful. We need AI to be safe and transparent. AI is important for cancer treatment and accalerate
+treatment. AI can mark tumors on scans faster reducing the time by several hours per treatment. They are 
+currently expanding the use of AI for this. Open source technology to support accessebility. There are 
+also AI tools to help patients get the right treatment and drugs with a lot less human error and higher
+accuracy.
+
+2nd speaker: Dr Kim Branson
+Disease is a system level property. We know what water is but it hard  to calculate how water will splash
+if we drop something in it. Last 3 years AI  has improved the medicine a lot. With more complicated AI
+computations we have a whole new dimension to discover. We used to look at a 2d patch under the 
+microscope, which we can now use a 3d model for that AI can use. We can simulate more complicated
+behaviour and look at things from a whole different angle and we can measure more things. AI is the
+glue holding it all together. We need to make better models and bridging models to close the gap
+to actual application. Make models for complicated actual use, which isnt possible yet due to the
+body being to complex, but reduce the scope to make it possible. Counter it with a simple question like
+, "will chemotherapy save the patient?" and then simulate on the highest level with a limited scope.
+When you do something is also important. If you light a match and start a fire, dowsing the match will
+not stop the fire. Seeing something in motion can help to understand. Superficial symptoms do not always
+corrolate to the same cause or solution. AI can help with What, When, How and Who to intervene on.
+
+3rd speaker: Professor Daphne Koller
+Many complex diseases remain opaque because human biology is far to complex. We need to produce high
+level data for machine learning, that it can do what we cant. They made insitro. They make data from
+cellular and clinical data. With this data they can define disease far better. You have diseases that 
+have high genetic clarity, and others that dont, but they are often more common and so we have more
+clinical data. You also have the combination of both. More diseases are moving to the center between
+the two.
+They have access to high quality clinical data which helped them a lot. They do need to overlay it with 
+genetic data to come to novel conclusions. They can then deepfake several scenarios once you have 
+sufficient data. TSC is a somewhat rare disease with only 1 drug with complications in 50% of 
+patients. They were able to discover multiple drugs to relieve some symptoms.
+
+Q&A:
+The data belongs to the hospitals.
+The goals is to augment clinitians, not to replace them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

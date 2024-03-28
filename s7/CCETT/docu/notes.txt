@@ -1,0 +1,132 @@
+Azure
+
+Storage account moet er zijn.
+skip blobs
+! FunctionRage, LogicRage, Servicebus-Rage
+
+LogicApp listents constantly for queue trigger
+
+Servicebus: 4 queues, konden er 2 geweest zijn, maar moest dan elke keer het type checken of het processed is, dus gewoon, input en output apart.
+Keypresses:
+	- Logic App:
+	om de seconde checken (kleinste mogelijk), maak 2 variables, verwerkt input, assign variables, (http) azure function call naar azure function, check result, als overschreden dan stuur message terug naar queue
+	
+	- Function App:
+	1 File met alle functions (function_app.py), aparte routes
+	Wij werken met query, niet met body
+	Keypressmonitor heeft user max ppt settings nodig, get user settingsid => get maxppt, alleen id van settings in user, niet settings zelf
+
+Curseprocessing:
+	- Logic App:
+	maak 2 variables, verwerkt input, assign variables, (http) azure function call naar azure function, return result
+	
+	- Function App:
+	curses.txt, lijst van 125 curses dat het detect
+	als woord in curses, dan add je count aan woord, return de nieuwe dictionary
+	contentfuls sdk for python does not allow for auto-deployment
+	
+
+Function app notes:
+	requirements.txt:
+	sommige packages/libraries kunnen niet standaard gedeployed worden, maar kan je hier adden + version management
+
+	expofixes:
+	getten de messages van de queue en returnen het als json
+
+
+
+React
+
+! * in source
+babel.config.js => automatisch generated, kan plugins meegeven
+app.json => configuration stuff, opstart screen, sensor permissions
+app.js => startpunt van alles
+	Stacknavigator, navigation tussen stacks
+	heeft userprovider, zorgt voor user data accesibility in elk scherm
+
+
+homestack.js: collection van schermen, veel styling, paar onpresses
+	starts checking notification on mount on notificationService.js, shows notification(Toast.android.show) and saves it in storage
+	constantly checks the velocity, shows notification
+	remounts if the velocity setting was changed
+
+loginstack.js: navigates and styles loginscreen
+
+async storage stays between sessions
+
+userprovider: slaat alle data in states op voor de hele app.
+
+	useEffect: checks if there is an async storage
+
+	Loginprocess: sets username, gets usercursewords from azure
+	GetUserData: gets data from contentful, saved to async storage
+	setUser: saves states using Dispatch with userReducer
+	
+	setUserCurseWords: gets curse words on login, using the api.js and async storage
+
+	const ... = useUser() ==> self defined hook lower in the file
+	if you wanne get the user data, call the useUser function
+
+api.js:
+	getUserApi: async, data, settings
+	flattenUser: puts important data in 1 object
+(...state, ...state.payload => adds the payload to the state, concats the 2 states together)
+ 
+
+query.js:
+	mainly for contentful interaction
+	getUserApi: gets contentful settings
+	updateSettingsApi: saves the setting when apply is pressed, locally and on contentful
+
+
+Screens:
+	werkt met states, variables for current session, [username, setusername]
+	login.js:
+		check if hardware available
+		useEffect(on mount) checks if available
+		KeyboardAvoidingView, adjust form aan keyboard size
+		Load biometrics if available, authenticates, to homestack if true
+
+	stats.js:
+		Calls the above defined useUser of the Userprovider.
+		SafeAreaView: element gaan nooit of screen voor apple
+		shows the curse words counters if not empty
+		show a gif of the spinning trophy
+		if darkmode gets updated, it switches style sheet
+
+	settings.js:
+		loads settings on mount with useUser.
+		has to do double variables, current and saved to update current ui
+		uses customSlider.js and customButton.js(for other styling)
+		handles new values on apply press
+
+	notifications.js:
+		gets notifications on mount from async storage
+		notifications in storage for keeping it between sessions
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
